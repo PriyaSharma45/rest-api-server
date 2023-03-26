@@ -2,8 +2,8 @@ package main
 
 import (
 	"log"
-	"pricing_details/pkg/handler"
-	"pricing_details/pkg/postgres_client"
+	"rest-api-server/pkg/handler"
+	"rest-api-server/pkg/postgres_client"
 )
 
 func main() {

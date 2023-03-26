@@ -18,4 +18,4 @@ COPY main.go ./
 RUN CGO_ENABLED=0 GOOS=linux go build -o /rest-api-server
 
 EXPOSE 8090
-CMD [/rest-api-server]
+CMD ["/rest-api-server"]

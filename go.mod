@@ -1,4 +1,4 @@
-module pricing_details
+module rest-api-server
 
 go 1.20
 

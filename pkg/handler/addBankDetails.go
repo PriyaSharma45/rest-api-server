@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
-	"pricing_details/pkg/model"
-	"pricing_details/pkg/postgres_client"
+	"rest-api-server/pkg/model"
+	"rest-api-server/pkg/postgres_client"
 )
 
 type SuccessMessage struct {

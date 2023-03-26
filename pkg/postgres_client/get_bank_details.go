@@ -3,7 +3,7 @@ package postgres_client
 import (
 	"database/sql"
 	"fmt"
-	"pricing_details/pkg/model"
+	"rest-api-server/pkg/model"
 )
 
 func GetBankDetails(postgresConn *sql.DB, userID int) (details model.CardDetails, err error) {
